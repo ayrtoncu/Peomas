@@ -1,0 +1,61 @@
+body{
+  background-image:url(davies-designs-studio-_UCVrH-ZIIg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.container{
+  width: 380px;
+  margin: auto;
+  background:rgb(186, 239, 255);
+  padding: auto;
+}
+#paper{
+  display: table;
+  margin: auto;
+}
+h1 {
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  color: #000;
+  position: relative;
+}
+div span{
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: rgb(186, 239, 255);
+  border-left: 1px solid #000;
+
+  animation: maquina 5s steps(12);
+}
+
+@keyframes maquina {
+  from{
+    width: 100%;
+  }
+  to{
+    width: 0%;
+  }
+}
+
+#parrafo1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  width: 350px;
+}
+#parrafo2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  width: 350px;
+}
+#parrafo3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  width: 350px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

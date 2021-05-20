@@ -7,7 +7,7 @@ body{
 .container{
   width: 380px;
   margin: auto;
-  background:rgb(186, 239, 255);
+  background-color: rgba(0, 0, 0, 0);
   padding: auto;
 }
 #paper{
@@ -58,4 +58,23 @@ div span{
   body {
     background-color: lightblue;
   }
+}
+#boton{
+  background-color: white;
+  border: 2px solid #f44336;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20% auto;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#boton:hover {
+  background-color: #f44336;
+  color: white;
+  border-radius: 25px;
 }

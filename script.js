@@ -1,8 +1,5 @@
-var a = new Audio("https://drive.google.com/file/d/11IPiz1JK7wr7pktngfGcjneBD_urDHcI/view?usp=sharing")
-
 function start() {
   window.location.href="./componente/poesia.html"
-  a.play();
 }
 
 let textparrafo1 = "Las umbrías bajo las cuales veo, en mis ensueños, los más traviesos pájaros cantores, son labios; y toda la melodía de tu voz no es hecha sino por palabras creadas por tus labios.";
